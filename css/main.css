@@ -48,6 +48,13 @@ header ul a {
 
 }
 
+
+@media (min-width: 1024px) {
+  .hvr:hover .mynone {
+    display: flex;
+  }
+}
+
 .cls {
     margin-left: 2px;
     width: 8px;
