@@ -87,8 +87,8 @@ consl();
 const mytitles = document.querySelector(".titles");
 mytitle.forEach((titl, num) => {
   mytitles.innerHTML += `
-      <li class="col-span-3">
-        <a href="${titl.link}" class="flex items-center p-0 text-[#ccc] no-underline hover:text-[#e10800]">
+      <li class="col-span-1  ">
+        <a href="${titl.link}" class="flex  flex-col lg:flex-row items-center p-0 text-[#ccc] no-underline hover:text-[#e10800]">
           ${titl.icon}
           ${titl.title}
         </a>
